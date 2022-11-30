@@ -1,5 +1,3 @@
-/* @import "angled-edges"; */
-
 img {
   width: 100%;
 }
@@ -18,10 +16,9 @@ img {
 
 /* NAVBAR */
 .navbar {
-  /* @include angled-edge('outside bottom','lower right', #EE3924); */
   padding-top: 0;
   margin-top: 0;
-  height: 200px;
+  height: 120px;
   display: flex;
   justify-content: space-between;
 }
@@ -57,9 +54,58 @@ img {
   margin: 0;
 }
 
-.title {
-  font-family: "Alfa Slab One", "Poppins";
-  font-weight: 400;
+.intro-comp {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.intro-title {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.intro-description {
+  margin-top: 4%;
+  padding-bottom: 10%;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5em;
+  color: #eae5e5
+}
+
+
+
+/* FOOTER */
+.footer {
+  padding-top: 0;
+  margin-top: 0;
+  height: 180px;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.footer-left {
+  /* width: 20%; */
+  flex: 1;
+  padding-top: 5%;
+  padding-left: 4%;
+}
+
+.footer-right {
+  /* width: 50%; */
+  display: flex;
+  flex: 3;
+  justify-content: flex-end;
+  padding-top: 5%;
+  padding-right: 0%;
+  margin-right: 0;
+}
+
+.social-image {
+  width: 7%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 
