@@ -95,17 +95,17 @@ img {
 .footer-right {
   /* width: 50%; */
   display: flex;
-  flex: 3;
+  flex: 2;
   justify-content: flex-end;
   padding-top: 5%;
-  padding-right: 0%;
+  padding-right: 1%;
   margin-right: 0;
 }
 
 .social-image {
   width: 7%;
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 

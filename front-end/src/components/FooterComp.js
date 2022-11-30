@@ -16,13 +16,13 @@ function FooterComp() {
                 <li className="footer-link">LinkedIn</li>
                 <li className="footer-link">Email</li> */}
                 <div className="social-image">
-                    <img src={githubLogo}></img>
+                    <a href="https://github.com/Austin-Cook" target="_blank"><img src={githubLogo}></img></a>
                 </div>
                 <div className="social-image">
-                    <img src={linkedinLogo}></img>
+                    <a href="https://www.linkedin.com/in/austin-cook-id/" target="_blank"><img src={linkedinLogo}></img></a>
                 </div>
                 <div className="social-image">
-                    <img src={emailLogo}></img>
+                    <a href="mailto:austin.cook.id@gmail.com" target="_blank"><img src={emailLogo}></img></a>
                 </div>
             </div>
         </div>
