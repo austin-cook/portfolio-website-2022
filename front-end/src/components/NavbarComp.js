@@ -10,14 +10,22 @@ function NavbarComp() {
             <div className="navbar-left">
                 <img src={transparentLogo}></img>
             </div>
-            <div className="navbar-right">
-                <ul className="navbar-links white-text">
-                    <li className="navbar-link">Projects</li>
-                    <li className="navbar-link">Skills</li>
-                    <li className="navbar-link">Education</li>
-                    <li className="navbar-link">Contact</li>
-                    <li className="navbar-link">Resume</li>
-                </ul>
+            <div className="navbar-right white-text">
+                <div className="navbar-link">
+                    <p>Projects</p>
+                </div>
+                <div className="navbar-link">
+                    <p>Skills</p>
+                </div>
+                <div className="navbar-link">
+                    <p>Education</p>
+                </div>
+                <div className="navbar-link">
+                    <p>Contact</p>
+                </div>
+                <div className="navbar-link">
+                    <p>Resume</p>
+                </div>
             </div>
         </div>
     )
