@@ -3,6 +3,9 @@ import React, { useEffect} from "react";
 import NavbarComp from './components/NavbarComp.js';
 import IntroComp from './components/IntroComp.js';
 import FooterComp from './components/FooterComp.js';
+import ProjectsComp from './components/ProjectsComp.js';
+import SkillsComp from './components/SkillsComp.js';
+import EducationComp from './components/EducationComp.js';
 
 
 function App() {
@@ -15,9 +18,11 @@ function App() {
       <NavbarComp />
       <IntroComp />
       <div className='top-right-angle'></div>
-      <div className="content-section">
-        <p>This is the page</p>
-      </div>
+      <ProjectsComp />
+      <div className='example-class'></div>
+      <SkillsComp />
+      <div className='top-right-angle'></div>
+      <EducationComp />
       <FooterComp />
     </div>
   );
