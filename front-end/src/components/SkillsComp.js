@@ -24,55 +24,55 @@ function SkillsComp() {
                 <div className="skills">
                     <div className="skill">
                         <motion.img src={cppLogo} alt="C++" whileHover={{ scale: 1.3 }}></motion.img>
-                        <p className="remove-whitespace">C++</p>
+                        <p className="to-bottom">C++</p>
                     </div>
                     <div className="skill">
                         <motion.img src={cLogo} alt="C" whileHover={{ scale: 1.3 }}></motion.img>
-                        <p className="remove-whitespace">C</p>
+                        <p className="to-bottom">C</p>
                     </div>
                     <div className="skill">
                         <motion.img src={pythonLogo} alt="Python" whileHover={{ scale: 1.3 }}></motion.img>
-                        <p className="remove-whitespace">Python</p>
+                        <p className="to-bottom">Python</p>
                     </div>
                     <div className="skill">
                         <motion.img src={jsLogo} alt="JavaScript" whileHover={{ scale: 1.3 }}></motion.img>
-                        <p className="remove-whitespace">JavaScript</p>
+                        <p className="to-bottom">JavaScript</p>
                     </div>
                     <div className="skill">
                         <motion.img src={reactLogo} alt="React" whileHover={{ scale: 1.3 }}></motion.img>
-                        <p className="remove-whitespace">React</p>
+                        <p className="to-bottom">React</p>
                     </div>
                     <div className="skill">
                         <motion.img src={htmlLogo} alt="HTML" whileHover={{ scale: 1.3 }}></motion.img>
-                        <p className="remove-whitespace">HTML</p>
+                        <p className="to-bottom">HTML</p>
                     </div>
                     <div className="skill">
                         <motion.img src={cssLogo} alt="CSS" whileHover={{ scale: 1.3 }}></motion.img>
-                        <p className="remove-whitespace">CSS</p>
+                        <p className="to-bottom">CSS</p>
                     </div>
                     <div className="skill">
                         <motion.img src={nodeLogo} alt="Node.js" whileHover={{ scale: 1.3 }}></motion.img>
-                        <p className="remove-whitespace">Node.js</p>
+                        <p className="to-bottom">Node.js</p>
                     </div>
                     <div className="skill">
                         <motion.img src={mongodbLogo} alt="MongoDB" whileHover={{ scale: 1.3 }}></motion.img>
-                        <p className="remove-whitespace">MongoDB</p>
+                        <p className="to-bottom">MongoDB</p>
                     </div>
                     <div className="skill">
                         <motion.img src={bootstrapLogo} alt="Bootstrap" whileHover={{ scale: 1.3 }}></motion.img>
-                        <p className="remove-whitespace">Bootstrap</p>
+                        <p className="to-bottom">Bootstrap</p>
                     </div>
                     <div className="skill">
                         <motion.img src={gitLogo} alt="Git" whileHover={{ scale: 1.3 }}></motion.img>
-                        <p className="remove-whitespace">Git</p>
+                        <p className="to-bottom">Git</p>
                     </div>
                     <div className="skill">
                         <motion.img src={linuxLogo} alt="Linux" whileHover={{ scale: 1.3 }}></motion.img>
-                        <p className="remove-whitespace">Linux</p>
+                        <p className="to-bottom">Linux</p>
                     </div>
                     <div className="skill">
                         <motion.img src={ubuntuLogo} alt="Ubuntu" whileHover={{ scale: 1.3 }}></motion.img>
-                        <p className="remove-whitespace">Ubuntu</p>
+                        <p className="to-bottom">Ubuntu</p>
                     </div>
                 </div>
             </div>

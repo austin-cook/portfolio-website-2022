@@ -97,8 +97,13 @@ img {
 .skill {
   width: 90px;
   margin: 20px;
+  flex-direction: column;
+  display: flex;
 }
 
+.to-bottom {
+  margin-top: auto;
+}
 
 /* EDUCATION */
 .education-comp {
@@ -110,13 +115,22 @@ img {
 }
 
 .education-box-outer {
-  border: solid;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  border-radius: 3px;
+
+  box-shadow: 0 0.15rem 0.6rem rgb(43 52 56 / 15%);
 }
 
 .education-box-inner {
-  margin: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-top: 4%;
+  padding-bottom: 4%;
   display: flex;
-  border: dotted;
+  /* border: dotted; */
 }
 
 .education-box-left {
@@ -124,22 +138,23 @@ img {
 }
 
 .education-image {
-  width: 100%;
+  width: 80%;
 }
 
 .education-box-right {
   flex: 3;
   padding-left: 0%;
+  padding-bottom: 0%;
   text-align: left;
-}
-
-.education-text {
-  margin-top: 4%;
-  padding-bottom: 10%;
   font-family: "Inter", sans-serif;
   font-size: 1em;
   line-height: 1;
   color: black;
+}
+
+.less-margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 

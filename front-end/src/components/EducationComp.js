@@ -11,14 +11,17 @@ function EducationComp() {
                 <div className="education-box-inner">
                     <div className="education-box-left">
                         <div className="education-image">
-                        <motion.img src={byuLogo} alt="Brigham Young University" whileHover={{ scale: 1.3 }}></motion.img>
+                        <motion.img src={byuLogo} alt="Brigham Young University" whileHover={{ scale: 1.1 }}></motion.img>
                         </div>
                     </div>
-                    <div className="education-box-right education-text">
-                        <p>2021 - 2025</p>
-                        <p>Brigham Young UniversityEmphasis in Software Engineering</p>
-                        <p>Expected to graduate in 2025</p>
-                        <p>Current GPA - 4.0</p>
+                    <div className="education-box-right">
+                        <p className="less-margin">2021 - 2025</p>
+                        <p className="less-margin">Brigham Young University - Bachelor of Computer ScienceEmphasis in Software Engineering</p>
+                        <p className="less-margin">Current GPA - 4.0</p>
+                        <ul className="less-margin">
+                            <li>Emphasis in Software Engineering</li>
+                            <li>Physical and Mathematical Science Dean's List 2021 & 2022</li>
+                        </ul>
                     </div>
                 </div>
             </div>
