@@ -11,7 +11,7 @@ function EducationComp() {
                 <div className="education-box-inner">
                     <div className="education-box-left">
                         <div className="education-image">
-                        <motion.img src={byuLogo} alt="Brigham Young University" whileHover={{ scale: 1.1 }}></motion.img>
+                            <motion.img src={byuLogo} alt="Brigham Young University" whileHover={{ scale: 1.1 }}></motion.img>
                         </div>
                     </div>
                     <div className="education-box-right">

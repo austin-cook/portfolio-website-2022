@@ -6,6 +6,7 @@ import FooterComp from './components/FooterComp.js';
 import ProjectsComp from './components/ProjectsComp.js';
 import SkillsComp from './components/SkillsComp.js';
 import EducationComp from './components/EducationComp.js';
+import ContactComp from './components/ContactComp.js';
 
 
 function App() {
@@ -19,10 +20,11 @@ function App() {
       <IntroComp />
       <div className='top-right-angle'></div>
       <ProjectsComp />
-      <div className='example-class'></div>
+      <div className='bottom-left-angle'></div>
       <SkillsComp />
       <div className='top-right-angle'></div>
       <EducationComp />
+      <ContactComp />
       <FooterComp />
     </div>
   );

@@ -10,7 +10,9 @@ function FooterComp() {
     return (
         <div className="footer gray-background">
             <div className="footer-left">
-                <img src={transparentLogo} alt="Austin Cook | Software Engineer"></img>
+                <div className="footer-logo">
+                    <img src={transparentLogo} alt="Austin Cook | Software Engineer"></img>
+                </div>
             </div>
             <div className="footer-right white-text">
                 {/* <li className="footer-link">Github</li>
