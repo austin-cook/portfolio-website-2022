@@ -143,14 +143,33 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  align-items: center;
+  font-weight: 700;
 }
 
 .made-with-logo {
-  border: solid;
-  width: 20px;
-  padding: 0;
-  margin: 0;
+  /* border: solid; */
+  width: 25px;
+  margin-left: 2%;
 }
+.longer-logo {
+  margin-top: 2px;
+  width: 65px;
+  margin-left: 2%;
+}
+
+/* .link-buttons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link-button {
+  width: 20px;
+  border-radius: 1px;
+  border-radius: 3px;
+  border-color: #1192DC;
+} */
 
 .extra-padding {
   padding-bottom: 2%;
