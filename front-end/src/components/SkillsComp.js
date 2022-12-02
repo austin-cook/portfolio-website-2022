@@ -20,7 +20,7 @@ function SkillsComp() {
     return (
         <div className="gray-background">
             <div className="skills-comp gray-background white-text">
-                <h1 className="intro-title remove-whitespace">My <span className="blue-text">Skills</span></h1>
+                <h1 id="skills" className="other-title remove-whitespace">My <span className="blue-text">Skills</span></h1>
                 <div className="skills">
                     <div className="skill">
                         <motion.img src={cppLogo} alt="C++" whileHover={{ scale: 1.3 }}></motion.img>
