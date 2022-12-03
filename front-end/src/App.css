@@ -344,7 +344,7 @@ a {
 @media only screen and (max-width: 860px) {
   /* NAVBAR */
   .left-image {
-    width: 175px;
+    width: 150px;
   }
 
   .navbar-right {
@@ -375,6 +375,109 @@ a {
   /* FOOTER */
   .footer-logo {
     width: 225px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  /* NAVBAR */
+  .navbar {
+    padding-top: 3%;
+    flex-direction: column;
+  }
+
+  .navbar-left {
+    padding-left: 0%;
+  }
+  
+  .left-image {
+    width: 250px;
+    margin: auto;
+  }
+
+  .navbar-right {
+    margin: auto;
+    padding-top: 1%;
+    flex: 1;
+    justify-content: center;
+  }
+  
+  /* INTRO */
+  .intro-comp {
+    width: 70%;
+  }
+  
+  /* PROJECTS */
+  .projects-comp {
+    width: 85%;
+    padding-top: 20%;
+    padding-bottom: 10%;
+  }
+
+  .project {
+    flex-direction: column;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+
+  .project-text {
+    margin-left: 0;
+    width: 97%;
+  }
+
+  /* SKILLS */
+  .skills-comp {
+    padding-top: 15%;
+    padding-bottom: 10%;
+  }
+
+  /* EDUCATION */
+  .education-comp {
+    padding-top: 25%;
+    padding-bottom: 25%;
+  }
+
+  .education-box-outer {
+    margin-top: 15%;
+  }
+
+  /* CONTACT */
+  .contact-comp {
+    padding-top: 2%;
+    padding-bottom: 15%;
+  }
+
+  .contact-boxes {
+    padding-top: 15%;
+    padding-bottom: 4%;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding-top: 9%;
+    padding-bottom: 12%;
+    flex-direction:column-reverse;
+  }
+  
+  .footer-left {
+    flex: 1;
+    justify-content: center;
+    margin: auto;
+    padding-left: 0%;
+  }
+
+  .footer-logo {
+    width: 285px;
+  }
+
+  .footer-right {
+    /* width: 50%; */
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .social-image {
+    width: 60px;
   }
 }
 
