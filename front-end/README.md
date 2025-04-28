@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run deploy`
+
+Deploys the app to Github Pages at the site:\
+`http://austin-cook.github.io/portfolio-website-2022`
+
 ### `npm start`
 
 Runs the app in the development mode.\
